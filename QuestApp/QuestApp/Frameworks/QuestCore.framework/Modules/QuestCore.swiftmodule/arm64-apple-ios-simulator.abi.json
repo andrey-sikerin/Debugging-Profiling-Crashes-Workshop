@@ -1,0 +1,4052 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "QuestCore",
+    "printedName": "QuestCore",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "QuestCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "OSLog",
+        "printedName": "OSLog",
+        "declKind": "Import",
+        "moduleName": "QuestCore"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "QuestCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MemoryLeakModel",
+        "printedName": "MemoryLeakModel",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "goToNext",
+            "printedName": "goToNext",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "((QuestCore.Step) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(QuestCore.Step) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Step",
+                        "printedName": "QuestCore.Step",
+                        "usr": "s:9QuestCore4StepO"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9QuestCore15MemoryLeakModelC8goToNextyAA4StepOcSgvp",
+            "mangledName": "$s9QuestCore15MemoryLeakModelC8goToNextyAA4StepOcSgvp",
+            "moduleName": "QuestCore",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "((QuestCore.Step) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(QuestCore.Step) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Step",
+                            "printedName": "QuestCore.Step",
+                            "usr": "s:9QuestCore4StepO"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QuestCore15MemoryLeakModelC8goToNextyAA4StepOcSgvg",
+                "mangledName": "$s9QuestCore15MemoryLeakModelC8goToNextyAA4StepOcSgvg",
+                "moduleName": "QuestCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "((QuestCore.Step) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(QuestCore.Step) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Step",
+                            "printedName": "QuestCore.Step",
+                            "usr": "s:9QuestCore4StepO"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QuestCore15MemoryLeakModelC8goToNextyAA4StepOcSgvs",
+                "mangledName": "$s9QuestCore15MemoryLeakModelC8goToNextyAA4StepOcSgvs",
+                "moduleName": "QuestCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QuestCore15MemoryLeakModelC8goToNextyAA4StepOcSgvM",
+                "mangledName": "$s9QuestCore15MemoryLeakModelC8goToNextyAA4StepOcSgvM",
+                "moduleName": "QuestCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MemoryLeakModel",
+                "printedName": "QuestCore.MemoryLeakModel",
+                "usr": "s:9QuestCore15MemoryLeakModelC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MemoryLeakModel",
+                "printedName": "QuestCore.MemoryLeakModel",
+                "usr": "s:9QuestCore15MemoryLeakModelC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9QuestCore15MemoryLeakModelC2eeoiySbAC_ACtFZ",
+            "mangledName": "$s9QuestCore15MemoryLeakModelC2eeoiySbAC_ACtFZ",
+            "moduleName": "QuestCore",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nextStep:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MemoryLeakModel",
+                "printedName": "QuestCore.MemoryLeakModel",
+                "usr": "s:9QuestCore15MemoryLeakModelC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Step",
+                "printedName": "QuestCore.Step",
+                "usr": "s:9QuestCore4StepO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9QuestCore15MemoryLeakModelC8nextStepAcA0G0O_tcfc",
+            "mangledName": "$s9QuestCore15MemoryLeakModelC8nextStepAcA0G0O_tcfc",
+            "moduleName": "QuestCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "goToNextStep",
+            "printedName": "goToNextStep()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9QuestCore15MemoryLeakModelC12goToNextStepyyF",
+            "mangledName": "$s9QuestCore15MemoryLeakModelC12goToNextStepyyF",
+            "moduleName": "QuestCore",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9QuestCore15MemoryLeakModelC",
+        "mangledName": "$s9QuestCore15MemoryLeakModelC",
+        "moduleName": "QuestCore",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "QuestCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "QuestCore"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ImageManager",
+        "printedName": "ImageManager",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImageManager",
+                "printedName": "QuestCore.ImageManager",
+                "usr": "s:9QuestCore12ImageManagerC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9QuestCore12ImageManagerCACycfc",
+            "mangledName": "$s9QuestCore12ImageManagerCACycfc",
+            "moduleName": "QuestCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "loadImage",
+            "printedName": "loadImage(from:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Disposable",
+                "printedName": "QuestCore.Disposable",
+                "usr": "s:9QuestCore10DisposableC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<UIKit.UIImage, QuestCore.ImageManagerError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<UIKit.UIImage, QuestCore.ImageManagerError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ImageManagerError",
+                        "printedName": "QuestCore.ImageManagerError",
+                        "usr": "s:9QuestCore17ImageManagerErrorO"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9QuestCore12ImageManagerC04loadC04from10completionAA10DisposableC10Foundation3URLV_ys6ResultOySo7UIImageCAA0cD5ErrorOGctF",
+            "mangledName": "$s9QuestCore12ImageManagerC04loadC04from10completionAA10DisposableC10Foundation3URLV_ys6ResultOySo7UIImageCAA0cD5ErrorOGctF",
+            "moduleName": "QuestCore",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hasTasks",
+            "printedName": "hasTasks()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9QuestCore12ImageManagerC8hasTasksSbyF",
+            "mangledName": "$s9QuestCore12ImageManagerC8hasTasksSbyF",
+            "moduleName": "QuestCore",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9QuestCore12ImageManagerC",
+        "mangledName": "$s9QuestCore12ImageManagerC",
+        "moduleName": "QuestCore",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "QuestCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Var",
+        "name": "startStep",
+        "printedName": "startStep",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Step",
+            "printedName": "QuestCore.Step",
+            "usr": "s:9QuestCore4StepO"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:9QuestCore9startStepAA0D0Ovp",
+        "mangledName": "$s9QuestCore9startStepAA0D0Ovp",
+        "moduleName": "QuestCore",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl"
+        ],
+        "isLet": true,
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Step",
+                "printedName": "QuestCore.Step",
+                "usr": "s:9QuestCore4StepO"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:9QuestCore9startStepAA0D0Ovg",
+            "mangledName": "$s9QuestCore9startStepAA0D0Ovg",
+            "moduleName": "QuestCore",
+            "implicit": true,
+            "accessorKind": "get"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "QuestCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "QuestCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "OSLog",
+        "printedName": "OSLog",
+        "declKind": "Import",
+        "moduleName": "QuestCore"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "QuestCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CrashFramework",
+        "printedName": "CrashFramework",
+        "declKind": "Import",
+        "moduleName": "QuestCore"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CrashSomeWhereModel",
+        "printedName": "CrashSomeWhereModel",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "title",
+            "printedName": "title",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9QuestCore19CrashSomeWhereModelV5titleSSvp",
+            "mangledName": "$s9QuestCore19CrashSomeWhereModelV5titleSSvp",
+            "moduleName": "QuestCore",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QuestCore19CrashSomeWhereModelV5titleSSvg",
+                "mangledName": "$s9QuestCore19CrashSomeWhereModelV5titleSSvg",
+                "moduleName": "QuestCore",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QuestCore19CrashSomeWhereModelV5titleSSvs",
+                "mangledName": "$s9QuestCore19CrashSomeWhereModelV5titleSSvs",
+                "moduleName": "QuestCore",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QuestCore19CrashSomeWhereModelV5titleSSvM",
+                "mangledName": "$s9QuestCore19CrashSomeWhereModelV5titleSSvM",
+                "moduleName": "QuestCore",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "condition",
+            "printedName": "condition",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String??]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String??]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String??",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.String?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9QuestCore19CrashSomeWhereModelV9conditionSaySSSgSgGSgvp",
+            "mangledName": "$s9QuestCore19CrashSomeWhereModelV9conditionSaySSSgSgGSgvp",
+            "moduleName": "QuestCore",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String??]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String??]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.String??",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "Swift.String?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "String",
+                                    "printedName": "Swift.String",
+                                    "usr": "s:SS"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QuestCore19CrashSomeWhereModelV9conditionSaySSSgSgGSgvg",
+                "mangledName": "$s9QuestCore19CrashSomeWhereModelV9conditionSaySSSgSgGSgvg",
+                "moduleName": "QuestCore",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String??]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String??]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.String??",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "Swift.String?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "String",
+                                    "printedName": "Swift.String",
+                                    "usr": "s:SS"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QuestCore19CrashSomeWhereModelV9conditionSaySSSgSgGSgvs",
+                "mangledName": "$s9QuestCore19CrashSomeWhereModelV9conditionSaySSSgSgGSgvs",
+                "moduleName": "QuestCore",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QuestCore19CrashSomeWhereModelV9conditionSaySSSgSgGSgvM",
+                "mangledName": "$s9QuestCore19CrashSomeWhereModelV9conditionSaySSSgSgGSgvM",
+                "moduleName": "QuestCore",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "checkAnswer",
+            "printedName": "checkAnswer(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Result",
+                "printedName": "Swift.Result<QuestCore.Step, any Swift.Error>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Step",
+                    "printedName": "QuestCore.Step",
+                    "usr": "s:9QuestCore4StepO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "any Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "usr": "s:s6ResultO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9QuestCore19CrashSomeWhereModelV11checkAnswerys6ResultOyAA4StepOs5Error_pGSSF",
+            "mangledName": "$s9QuestCore19CrashSomeWhereModelV11checkAnswerys6ResultOyAA4StepOs5Error_pGSSF",
+            "moduleName": "QuestCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CrashSomeWhereModel",
+                "printedName": "QuestCore.CrashSomeWhereModel",
+                "usr": "s:9QuestCore19CrashSomeWhereModelV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CrashSomeWhereModel",
+                "printedName": "QuestCore.CrashSomeWhereModel",
+                "usr": "s:9QuestCore19CrashSomeWhereModelV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9QuestCore19CrashSomeWhereModelV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s9QuestCore19CrashSomeWhereModelV2eeoiySbAC_ACtFZ",
+            "moduleName": "QuestCore",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9QuestCore19CrashSomeWhereModelV",
+        "mangledName": "$s9QuestCore19CrashSomeWhereModelV",
+        "moduleName": "QuestCore",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "QuestCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FindSomeModel",
+        "printedName": "FindSomeModel",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "title",
+            "printedName": "title",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9QuestCore13FindSomeModelV5titleSSvp",
+            "mangledName": "$s9QuestCore13FindSomeModelV5titleSSvp",
+            "moduleName": "QuestCore",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QuestCore13FindSomeModelV5titleSSvg",
+                "mangledName": "$s9QuestCore13FindSomeModelV5titleSSvg",
+                "moduleName": "QuestCore",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QuestCore13FindSomeModelV5titleSSvs",
+                "mangledName": "$s9QuestCore13FindSomeModelV5titleSSvs",
+                "moduleName": "QuestCore",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QuestCore13FindSomeModelV5titleSSvM",
+                "mangledName": "$s9QuestCore13FindSomeModelV5titleSSvM",
+                "moduleName": "QuestCore",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "condition",
+            "printedName": "condition",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String??]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String??]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String??",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.String?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9QuestCore13FindSomeModelV9conditionSaySSSgSgGSgvp",
+            "mangledName": "$s9QuestCore13FindSomeModelV9conditionSaySSSgSgGSgvp",
+            "moduleName": "QuestCore",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String??]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String??]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.String??",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "Swift.String?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "String",
+                                    "printedName": "Swift.String",
+                                    "usr": "s:SS"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QuestCore13FindSomeModelV9conditionSaySSSgSgGSgvg",
+                "mangledName": "$s9QuestCore13FindSomeModelV9conditionSaySSSgSgGSgvg",
+                "moduleName": "QuestCore",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String??]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String??]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.String??",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "Swift.String?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "String",
+                                    "printedName": "Swift.String",
+                                    "usr": "s:SS"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QuestCore13FindSomeModelV9conditionSaySSSgSgGSgvs",
+                "mangledName": "$s9QuestCore13FindSomeModelV9conditionSaySSSgSgGSgvs",
+                "moduleName": "QuestCore",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QuestCore13FindSomeModelV9conditionSaySSSgSgGSgvM",
+                "mangledName": "$s9QuestCore13FindSomeModelV9conditionSaySSSgSgGSgvM",
+                "moduleName": "QuestCore",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "checkAnswer",
+            "printedName": "checkAnswer(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Result",
+                "printedName": "Swift.Result<QuestCore.Step, any Swift.Error>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Step",
+                    "printedName": "QuestCore.Step",
+                    "usr": "s:9QuestCore4StepO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "any Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "usr": "s:s6ResultO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9QuestCore13FindSomeModelV11checkAnswerys6ResultOyAA4StepOs5Error_pGSSF",
+            "mangledName": "$s9QuestCore13FindSomeModelV11checkAnswerys6ResultOyAA4StepOs5Error_pGSSF",
+            "moduleName": "QuestCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FindSomeModel",
+                "printedName": "QuestCore.FindSomeModel",
+                "usr": "s:9QuestCore13FindSomeModelV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FindSomeModel",
+                "printedName": "QuestCore.FindSomeModel",
+                "usr": "s:9QuestCore13FindSomeModelV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9QuestCore13FindSomeModelV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s9QuestCore13FindSomeModelV2eeoiySbAC_ACtFZ",
+            "moduleName": "QuestCore",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9QuestCore13FindSomeModelV",
+        "mangledName": "$s9QuestCore13FindSomeModelV",
+        "moduleName": "QuestCore",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "QuestCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LockerModel",
+        "printedName": "LockerModel",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "LockerModelDelegate",
+            "printedName": "LockerModelDelegate",
+            "children": [
+              {
+                "kind": "Function",
+                "name": "lockerModelDidLock",
+                "printedName": "lockerModelDidLock(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LockerModel",
+                    "printedName": "QuestCore.LockerModel",
+                    "usr": "s:9QuestCore11LockerModelC"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:9QuestCore11LockerModelC0cD8DelegateP06lockerD7DidLockyyACF",
+                "mangledName": "$s9QuestCore11LockerModelC0cD8DelegateP06lockerD7DidLockyyACF",
+                "moduleName": "QuestCore",
+                "genericSig": "<τ_0_0 where τ_0_0 : QuestCore.LockerModel.LockerModelDelegate>",
+                "sugared_genericSig": "<Self where Self : QuestCore.LockerModel.LockerModelDelegate>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "lockerModelDidUnlock",
+                "printedName": "lockerModelDidUnlock(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LockerModel",
+                    "printedName": "QuestCore.LockerModel",
+                    "usr": "s:9QuestCore11LockerModelC"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:9QuestCore11LockerModelC0cD8DelegateP06lockerD9DidUnlockyyACF",
+                "mangledName": "$s9QuestCore11LockerModelC0cD8DelegateP06lockerD9DidUnlockyyACF",
+                "moduleName": "QuestCore",
+                "genericSig": "<τ_0_0 where τ_0_0 : QuestCore.LockerModel.LockerModelDelegate>",
+                "sugared_genericSig": "<Self where Self : QuestCore.LockerModel.LockerModelDelegate>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Protocol",
+            "usr": "s:9QuestCore11LockerModelC0cD8DelegateP",
+            "mangledName": "$s9QuestCore11LockerModelC0cD8DelegateP",
+            "moduleName": "QuestCore",
+            "genericSig": "<τ_0_0 : AnyObject>",
+            "sugared_genericSig": "<Self : AnyObject>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "(any QuestCore.LockerModel.LockerModelDelegate)?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9QuestCore11LockerModelC8delegateAC0cD8Delegate_pSgvp",
+            "mangledName": "$s9QuestCore11LockerModelC8delegateAC0cD8Delegate_pSgvp",
+            "moduleName": "QuestCore",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any QuestCore.LockerModel.LockerModelDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LockerModelDelegate",
+                        "printedName": "any QuestCore.LockerModel.LockerModelDelegate",
+                        "usr": "s:9QuestCore11LockerModelC0cD8DelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QuestCore11LockerModelC8delegateAC0cD8Delegate_pSgvg",
+                "mangledName": "$s9QuestCore11LockerModelC8delegateAC0cD8Delegate_pSgvg",
+                "moduleName": "QuestCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any QuestCore.LockerModel.LockerModelDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LockerModelDelegate",
+                        "printedName": "any QuestCore.LockerModel.LockerModelDelegate",
+                        "usr": "s:9QuestCore11LockerModelC0cD8DelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QuestCore11LockerModelC8delegateAC0cD8Delegate_pSgvs",
+                "mangledName": "$s9QuestCore11LockerModelC8delegateAC0cD8Delegate_pSgvs",
+                "moduleName": "QuestCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QuestCore11LockerModelC8delegateAC0cD8Delegate_pSgvM",
+                "mangledName": "$s9QuestCore11LockerModelC8delegateAC0cD8Delegate_pSgvM",
+                "moduleName": "QuestCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "lockModel",
+            "printedName": "lockModel()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9QuestCore11LockerModelC04lockD0yyF",
+            "mangledName": "$s9QuestCore11LockerModelC04lockD0yyF",
+            "moduleName": "QuestCore",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unlock",
+            "printedName": "unlock()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9QuestCore11LockerModelC6unlockyyF",
+            "mangledName": "$s9QuestCore11LockerModelC6unlockyyF",
+            "moduleName": "QuestCore",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getNextStepOnce",
+            "printedName": "getNextStepOnce()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Result",
+                "printedName": "Swift.Result<QuestCore.Step, any Swift.Error>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Step",
+                    "printedName": "QuestCore.Step",
+                    "usr": "s:9QuestCore4StepO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "any Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "usr": "s:s6ResultO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9QuestCore11LockerModelC15getNextStepOnces6ResultOyAA0G0Os5Error_pGyF",
+            "mangledName": "$s9QuestCore11LockerModelC15getNextStepOnces6ResultOyAA0G0Os5Error_pGyF",
+            "moduleName": "QuestCore",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LockerModel",
+                "printedName": "QuestCore.LockerModel",
+                "usr": "s:9QuestCore11LockerModelC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LockerModel",
+                "printedName": "QuestCore.LockerModel",
+                "usr": "s:9QuestCore11LockerModelC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9QuestCore11LockerModelC2eeoiySbAC_ACtFZ",
+            "mangledName": "$s9QuestCore11LockerModelC2eeoiySbAC_ACtFZ",
+            "moduleName": "QuestCore",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9QuestCore11LockerModelC",
+        "mangledName": "$s9QuestCore11LockerModelC",
+        "moduleName": "QuestCore",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "QuestCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PasswordLockUI",
+        "printedName": "PasswordLockUI",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "updatePassword",
+            "printedName": "updatePassword(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9QuestCore14PasswordLockUIP06updateC0yySSF",
+            "mangledName": "$s9QuestCore14PasswordLockUIP06updateC0yySSF",
+            "moduleName": "QuestCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : QuestCore.PasswordLockUI>",
+            "sugared_genericSig": "<Self where Self : QuestCore.PasswordLockUI>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateGeneratedPassword",
+            "printedName": "updateGeneratedPassword(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9QuestCore14PasswordLockUIP015updateGeneratedC0yySSF",
+            "mangledName": "$s9QuestCore14PasswordLockUIP015updateGeneratedC0yySSF",
+            "moduleName": "QuestCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : QuestCore.PasswordLockUI>",
+            "sugared_genericSig": "<Self where Self : QuestCore.PasswordLockUI>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:9QuestCore14PasswordLockUIP",
+        "mangledName": "$s9QuestCore14PasswordLockUIP",
+        "moduleName": "QuestCore",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PasswordLockModel",
+        "printedName": "PasswordLockModel",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PasswordLockModel",
+                "printedName": "QuestCore.PasswordLockModel",
+                "usr": "s:9QuestCore17PasswordLockModelC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PasswordLockModel",
+                "printedName": "QuestCore.PasswordLockModel",
+                "usr": "s:9QuestCore17PasswordLockModelC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9QuestCore17PasswordLockModelC2eeoiySbAC_ACtFZ",
+            "mangledName": "$s9QuestCore17PasswordLockModelC2eeoiySbAC_ACtFZ",
+            "moduleName": "QuestCore",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "goToNext",
+            "printedName": "goToNext",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "((QuestCore.Step) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(QuestCore.Step) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Step",
+                        "printedName": "QuestCore.Step",
+                        "usr": "s:9QuestCore4StepO"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9QuestCore17PasswordLockModelC8goToNextyAA4StepOcSgvp",
+            "mangledName": "$s9QuestCore17PasswordLockModelC8goToNextyAA4StepOcSgvp",
+            "moduleName": "QuestCore",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "((QuestCore.Step) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(QuestCore.Step) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Step",
+                            "printedName": "QuestCore.Step",
+                            "usr": "s:9QuestCore4StepO"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QuestCore17PasswordLockModelC8goToNextyAA4StepOcSgvg",
+                "mangledName": "$s9QuestCore17PasswordLockModelC8goToNextyAA4StepOcSgvg",
+                "moduleName": "QuestCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "((QuestCore.Step) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(QuestCore.Step) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Step",
+                            "printedName": "QuestCore.Step",
+                            "usr": "s:9QuestCore4StepO"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QuestCore17PasswordLockModelC8goToNextyAA4StepOcSgvs",
+                "mangledName": "$s9QuestCore17PasswordLockModelC8goToNextyAA4StepOcSgvs",
+                "moduleName": "QuestCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QuestCore17PasswordLockModelC8goToNextyAA4StepOcSgvM",
+                "mangledName": "$s9QuestCore17PasswordLockModelC8goToNextyAA4StepOcSgvM",
+                "moduleName": "QuestCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "passwordLockUI",
+            "printedName": "passwordLockUI",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "(any QuestCore.PasswordLockUI)?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9QuestCore17PasswordLockModelC08passwordD2UIAA0cdG0_pSgvp",
+            "mangledName": "$s9QuestCore17PasswordLockModelC08passwordD2UIAA0cdG0_pSgvp",
+            "moduleName": "QuestCore",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any QuestCore.PasswordLockUI)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PasswordLockUI",
+                        "printedName": "any QuestCore.PasswordLockUI",
+                        "usr": "s:9QuestCore14PasswordLockUIP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QuestCore17PasswordLockModelC08passwordD2UIAA0cdG0_pSgvg",
+                "mangledName": "$s9QuestCore17PasswordLockModelC08passwordD2UIAA0cdG0_pSgvg",
+                "moduleName": "QuestCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any QuestCore.PasswordLockUI)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PasswordLockUI",
+                        "printedName": "any QuestCore.PasswordLockUI",
+                        "usr": "s:9QuestCore14PasswordLockUIP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QuestCore17PasswordLockModelC08passwordD2UIAA0cdG0_pSgvs",
+                "mangledName": "$s9QuestCore17PasswordLockModelC08passwordD2UIAA0cdG0_pSgvs",
+                "moduleName": "QuestCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QuestCore17PasswordLockModelC08passwordD2UIAA0cdG0_pSgvM",
+                "mangledName": "$s9QuestCore17PasswordLockModelC08passwordD2UIAA0cdG0_pSgvM",
+                "moduleName": "QuestCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nextStep:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PasswordLockModel",
+                "printedName": "QuestCore.PasswordLockModel",
+                "usr": "s:9QuestCore17PasswordLockModelC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Step",
+                "printedName": "QuestCore.Step",
+                "usr": "s:9QuestCore4StepO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9QuestCore17PasswordLockModelC8nextStepAcA0G0O_tcfc",
+            "mangledName": "$s9QuestCore17PasswordLockModelC8nextStepAcA0G0O_tcfc",
+            "moduleName": "QuestCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "generatePassword",
+            "printedName": "generatePassword()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9QuestCore17PasswordLockModelC08generateC0yyF",
+            "mangledName": "$s9QuestCore17PasswordLockModelC08generateC0yyF",
+            "moduleName": "QuestCore",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "checkPassword",
+            "printedName": "checkPassword()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9QuestCore17PasswordLockModelC05checkC0yyF",
+            "mangledName": "$s9QuestCore17PasswordLockModelC05checkC0yyF",
+            "moduleName": "QuestCore",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9QuestCore17PasswordLockModelC",
+        "mangledName": "$s9QuestCore17PasswordLockModelC",
+        "moduleName": "QuestCore",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "QuestCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "QuestCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ViewHierarchyModel",
+        "printedName": "ViewHierarchyModel",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ViewHierarchyModel",
+                "printedName": "QuestCore.ViewHierarchyModel",
+                "usr": "s:9QuestCore18ViewHierarchyModelC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ViewHierarchyModel",
+                "printedName": "QuestCore.ViewHierarchyModel",
+                "usr": "s:9QuestCore18ViewHierarchyModelC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9QuestCore18ViewHierarchyModelC2eeoiySbAC_ACtFZ",
+            "mangledName": "$s9QuestCore18ViewHierarchyModelC2eeoiySbAC_ACtFZ",
+            "moduleName": "QuestCore",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "goToNext",
+            "printedName": "goToNext",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "((QuestCore.Step) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(QuestCore.Step) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Step",
+                        "printedName": "QuestCore.Step",
+                        "usr": "s:9QuestCore4StepO"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9QuestCore18ViewHierarchyModelC8goToNextyAA4StepOcSgvp",
+            "mangledName": "$s9QuestCore18ViewHierarchyModelC8goToNextyAA4StepOcSgvp",
+            "moduleName": "QuestCore",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "((QuestCore.Step) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(QuestCore.Step) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Step",
+                            "printedName": "QuestCore.Step",
+                            "usr": "s:9QuestCore4StepO"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QuestCore18ViewHierarchyModelC8goToNextyAA4StepOcSgvg",
+                "mangledName": "$s9QuestCore18ViewHierarchyModelC8goToNextyAA4StepOcSgvg",
+                "moduleName": "QuestCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "((QuestCore.Step) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(QuestCore.Step) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Step",
+                            "printedName": "QuestCore.Step",
+                            "usr": "s:9QuestCore4StepO"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QuestCore18ViewHierarchyModelC8goToNextyAA4StepOcSgvs",
+                "mangledName": "$s9QuestCore18ViewHierarchyModelC8goToNextyAA4StepOcSgvs",
+                "moduleName": "QuestCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QuestCore18ViewHierarchyModelC8goToNextyAA4StepOcSgvM",
+                "mangledName": "$s9QuestCore18ViewHierarchyModelC8goToNextyAA4StepOcSgvM",
+                "moduleName": "QuestCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nextStep:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ViewHierarchyModel",
+                "printedName": "QuestCore.ViewHierarchyModel",
+                "usr": "s:9QuestCore18ViewHierarchyModelC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Step",
+                "printedName": "QuestCore.Step",
+                "usr": "s:9QuestCore4StepO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9QuestCore18ViewHierarchyModelC8nextStepAcA0G0O_tcfc",
+            "mangledName": "$s9QuestCore18ViewHierarchyModelC8nextStepAcA0G0O_tcfc",
+            "moduleName": "QuestCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "view",
+            "printedName": "view",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9QuestCore18ViewHierarchyModelC4viewSo6UIViewCvp",
+            "mangledName": "$s9QuestCore18ViewHierarchyModelC4viewSo6UIViewCvp",
+            "moduleName": "QuestCore",
+            "declAttributes": [
+              "Final",
+              "Lazy",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QuestCore18ViewHierarchyModelC4viewSo6UIViewCvg",
+                "mangledName": "$s9QuestCore18ViewHierarchyModelC4viewSo6UIViewCvg",
+                "moduleName": "QuestCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QuestCore18ViewHierarchyModelC4viewSo6UIViewCvs",
+                "mangledName": "$s9QuestCore18ViewHierarchyModelC4viewSo6UIViewCvs",
+                "moduleName": "QuestCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QuestCore18ViewHierarchyModelC4viewSo6UIViewCvM",
+                "mangledName": "$s9QuestCore18ViewHierarchyModelC4viewSo6UIViewCvM",
+                "moduleName": "QuestCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "button",
+            "printedName": "button",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIButton",
+                "printedName": "UIKit.UIButton",
+                "usr": "c:objc(cs)UIButton"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9QuestCore18ViewHierarchyModelC6buttonSo8UIButtonCvp",
+            "mangledName": "$s9QuestCore18ViewHierarchyModelC6buttonSo8UIButtonCvp",
+            "moduleName": "QuestCore",
+            "declAttributes": [
+              "Final",
+              "Lazy",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIButton",
+                    "printedName": "UIKit.UIButton",
+                    "usr": "c:objc(cs)UIButton"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QuestCore18ViewHierarchyModelC6buttonSo8UIButtonCvg",
+                "mangledName": "$s9QuestCore18ViewHierarchyModelC6buttonSo8UIButtonCvg",
+                "moduleName": "QuestCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIButton",
+                    "printedName": "UIKit.UIButton",
+                    "usr": "c:objc(cs)UIButton"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QuestCore18ViewHierarchyModelC6buttonSo8UIButtonCvs",
+                "mangledName": "$s9QuestCore18ViewHierarchyModelC6buttonSo8UIButtonCvs",
+                "moduleName": "QuestCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QuestCore18ViewHierarchyModelC6buttonSo8UIButtonCvM",
+                "mangledName": "$s9QuestCore18ViewHierarchyModelC6buttonSo8UIButtonCvM",
+                "moduleName": "QuestCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9QuestCore18ViewHierarchyModelC",
+        "mangledName": "$s9QuestCore18ViewHierarchyModelC",
+        "moduleName": "QuestCore",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "QuestCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ImageManagerError",
+        "printedName": "ImageManagerError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "noData",
+            "printedName": "noData",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(QuestCore.ImageManagerError.Type) -> QuestCore.ImageManagerError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImageManagerError",
+                    "printedName": "QuestCore.ImageManagerError",
+                    "usr": "s:9QuestCore17ImageManagerErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "QuestCore.ImageManagerError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ImageManagerError",
+                        "printedName": "QuestCore.ImageManagerError",
+                        "usr": "s:9QuestCore17ImageManagerErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9QuestCore17ImageManagerErrorO6noDatayA2CmF",
+            "mangledName": "$s9QuestCore17ImageManagerErrorO6noDatayA2CmF",
+            "moduleName": "QuestCore"
+          },
+          {
+            "kind": "Var",
+            "name": "badData",
+            "printedName": "badData",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(QuestCore.ImageManagerError.Type) -> QuestCore.ImageManagerError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImageManagerError",
+                    "printedName": "QuestCore.ImageManagerError",
+                    "usr": "s:9QuestCore17ImageManagerErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "QuestCore.ImageManagerError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ImageManagerError",
+                        "printedName": "QuestCore.ImageManagerError",
+                        "usr": "s:9QuestCore17ImageManagerErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9QuestCore17ImageManagerErrorO7badDatayA2CmF",
+            "mangledName": "$s9QuestCore17ImageManagerErrorO7badDatayA2CmF",
+            "moduleName": "QuestCore"
+          },
+          {
+            "kind": "Var",
+            "name": "network",
+            "printedName": "network",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(QuestCore.ImageManagerError.Type) -> ((any Swift.Error)?) -> QuestCore.ImageManagerError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "((any Swift.Error)?) -> QuestCore.ImageManagerError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ImageManagerError",
+                        "printedName": "QuestCore.ImageManagerError",
+                        "usr": "s:9QuestCore17ImageManagerErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "QuestCore.ImageManagerError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ImageManagerError",
+                        "printedName": "QuestCore.ImageManagerError",
+                        "usr": "s:9QuestCore17ImageManagerErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9QuestCore17ImageManagerErrorO7networkyACs0E0_pSgcACmF",
+            "mangledName": "$s9QuestCore17ImageManagerErrorO7networkyACs0E0_pSgcACmF",
+            "moduleName": "QuestCore"
+          },
+          {
+            "kind": "Var",
+            "name": "unknown",
+            "printedName": "unknown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(QuestCore.ImageManagerError.Type) -> ((any Swift.Error)?) -> QuestCore.ImageManagerError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "((any Swift.Error)?) -> QuestCore.ImageManagerError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ImageManagerError",
+                        "printedName": "QuestCore.ImageManagerError",
+                        "usr": "s:9QuestCore17ImageManagerErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "QuestCore.ImageManagerError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ImageManagerError",
+                        "printedName": "QuestCore.ImageManagerError",
+                        "usr": "s:9QuestCore17ImageManagerErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9QuestCore17ImageManagerErrorO7unknownyACs0E0_pSgcACmF",
+            "mangledName": "$s9QuestCore17ImageManagerErrorO7unknownyACs0E0_pSgcACmF",
+            "moduleName": "QuestCore"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImageManagerError",
+                "printedName": "QuestCore.ImageManagerError",
+                "usr": "s:9QuestCore17ImageManagerErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImageManagerError",
+                "printedName": "QuestCore.ImageManagerError",
+                "usr": "s:9QuestCore17ImageManagerErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9QuestCore17ImageManagerErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s9QuestCore17ImageManagerErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "QuestCore",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9QuestCore17ImageManagerErrorO",
+        "mangledName": "$s9QuestCore17ImageManagerErrorO",
+        "moduleName": "QuestCore",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "QuestCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BingoModel",
+        "printedName": "BingoModel",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getBingoCode",
+            "printedName": "getBingoCode(compeltion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9QuestCore10BingoModelV03getC4Code10compeltionyySSXE_tF",
+            "mangledName": "$s9QuestCore10BingoModelV03getC4Code10compeltionyySSXE_tF",
+            "moduleName": "QuestCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BingoModel",
+                "printedName": "QuestCore.BingoModel",
+                "usr": "s:9QuestCore10BingoModelV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BingoModel",
+                "printedName": "QuestCore.BingoModel",
+                "usr": "s:9QuestCore10BingoModelV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9QuestCore10BingoModelV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s9QuestCore10BingoModelV2eeoiySbAC_ACtFZ",
+            "moduleName": "QuestCore",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9QuestCore10BingoModelV",
+        "mangledName": "$s9QuestCore10BingoModelV",
+        "moduleName": "QuestCore",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "QuestCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "QuestCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "QuestCore"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "QuestCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GreetingModel",
+        "printedName": "GreetingModel",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "usr": "s:Su"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9QuestCore13GreetingModelV2idSuvp",
+            "mangledName": "$s9QuestCore13GreetingModelV2idSuvp",
+            "moduleName": "QuestCore",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt",
+                    "printedName": "Swift.UInt",
+                    "usr": "s:Su"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QuestCore13GreetingModelV2idSuvg",
+                "mangledName": "$s9QuestCore13GreetingModelV2idSuvg",
+                "moduleName": "QuestCore",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt",
+                    "printedName": "Swift.UInt",
+                    "usr": "s:Su"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QuestCore13GreetingModelV2idSuvs",
+                "mangledName": "$s9QuestCore13GreetingModelV2idSuvs",
+                "moduleName": "QuestCore",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QuestCore13GreetingModelV2idSuvM",
+                "mangledName": "$s9QuestCore13GreetingModelV2idSuvM",
+                "moduleName": "QuestCore",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "nextStep",
+            "printedName": "nextStep",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> QuestCore.Step",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Step",
+                    "printedName": "QuestCore.Step",
+                    "usr": "s:9QuestCore4StepO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9QuestCore13GreetingModelV8nextStepAA0F0Oycvp",
+            "mangledName": "$s9QuestCore13GreetingModelV8nextStepAA0F0Oycvp",
+            "moduleName": "QuestCore",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> QuestCore.Step",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Step",
+                        "printedName": "QuestCore.Step",
+                        "usr": "s:9QuestCore4StepO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QuestCore13GreetingModelV8nextStepAA0F0Oycvg",
+                "mangledName": "$s9QuestCore13GreetingModelV8nextStepAA0F0Oycvg",
+                "moduleName": "QuestCore",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> QuestCore.Step",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Step",
+                        "printedName": "QuestCore.Step",
+                        "usr": "s:9QuestCore4StepO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QuestCore13GreetingModelV8nextStepAA0F0Oycvs",
+                "mangledName": "$s9QuestCore13GreetingModelV8nextStepAA0F0Oycvs",
+                "moduleName": "QuestCore",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QuestCore13GreetingModelV8nextStepAA0F0OycvM",
+                "mangledName": "$s9QuestCore13GreetingModelV8nextStepAA0F0OycvM",
+                "moduleName": "QuestCore",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GreetingModel",
+                "printedName": "QuestCore.GreetingModel",
+                "usr": "s:9QuestCore13GreetingModelV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GreetingModel",
+                "printedName": "QuestCore.GreetingModel",
+                "usr": "s:9QuestCore13GreetingModelV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9QuestCore13GreetingModelV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s9QuestCore13GreetingModelV2eeoiySbAC_ACtFZ",
+            "moduleName": "QuestCore",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9QuestCore13GreetingModelV",
+        "mangledName": "$s9QuestCore13GreetingModelV",
+        "moduleName": "QuestCore",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Disposable",
+        "printedName": "Disposable",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Disposable",
+                "printedName": "QuestCore.Disposable",
+                "usr": "s:9QuestCore10DisposableC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9QuestCore10DisposableCyACyycSgcfc",
+            "mangledName": "$s9QuestCore10DisposableCyACyycSgcfc",
+            "moduleName": "QuestCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "dispose",
+            "printedName": "dispose()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9QuestCore10DisposableC7disposeyyF",
+            "mangledName": "$s9QuestCore10DisposableC7disposeyyF",
+            "moduleName": "QuestCore",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "empty",
+            "printedName": "empty",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Disposable",
+                "printedName": "QuestCore.Disposable",
+                "usr": "s:9QuestCore10DisposableC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9QuestCore10DisposableC5emptyACvpZ",
+            "mangledName": "$s9QuestCore10DisposableC5emptyACvpZ",
+            "moduleName": "QuestCore",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Disposable",
+                    "printedName": "QuestCore.Disposable",
+                    "usr": "s:9QuestCore10DisposableC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9QuestCore10DisposableC5emptyACvgZ",
+                "mangledName": "$s9QuestCore10DisposableC5emptyACvgZ",
+                "moduleName": "QuestCore",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9QuestCore10DisposableC",
+        "mangledName": "$s9QuestCore10DisposableC",
+        "moduleName": "QuestCore",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "QuestCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Step",
+        "printedName": "Step",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "greeting",
+            "printedName": "greeting",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(QuestCore.Step.Type) -> (QuestCore.GreetingModel) -> QuestCore.Step",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(QuestCore.GreetingModel) -> QuestCore.Step",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Step",
+                        "printedName": "QuestCore.Step",
+                        "usr": "s:9QuestCore4StepO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GreetingModel",
+                        "printedName": "QuestCore.GreetingModel",
+                        "usr": "s:9QuestCore13GreetingModelV"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "QuestCore.Step.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Step",
+                        "printedName": "QuestCore.Step",
+                        "usr": "s:9QuestCore4StepO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9QuestCore4StepO8greetingyAcA13GreetingModelVcACmF",
+            "mangledName": "$s9QuestCore4StepO8greetingyAcA13GreetingModelVcACmF",
+            "moduleName": "QuestCore"
+          },
+          {
+            "kind": "Var",
+            "name": "crashSomeWhere",
+            "printedName": "crashSomeWhere",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(QuestCore.Step.Type) -> (QuestCore.CrashSomeWhereModel) -> QuestCore.Step",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(QuestCore.CrashSomeWhereModel) -> QuestCore.Step",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Step",
+                        "printedName": "QuestCore.Step",
+                        "usr": "s:9QuestCore4StepO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CrashSomeWhereModel",
+                        "printedName": "QuestCore.CrashSomeWhereModel",
+                        "usr": "s:9QuestCore19CrashSomeWhereModelV"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "QuestCore.Step.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Step",
+                        "printedName": "QuestCore.Step",
+                        "usr": "s:9QuestCore4StepO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9QuestCore4StepO14crashSomeWhereyAcA05CrasheF5ModelVcACmF",
+            "mangledName": "$s9QuestCore4StepO14crashSomeWhereyAcA05CrasheF5ModelVcACmF",
+            "moduleName": "QuestCore"
+          },
+          {
+            "kind": "Var",
+            "name": "locker",
+            "printedName": "locker",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(QuestCore.Step.Type) -> (QuestCore.LockerModel) -> QuestCore.Step",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(QuestCore.LockerModel) -> QuestCore.Step",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Step",
+                        "printedName": "QuestCore.Step",
+                        "usr": "s:9QuestCore4StepO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LockerModel",
+                        "printedName": "QuestCore.LockerModel",
+                        "usr": "s:9QuestCore11LockerModelC"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "QuestCore.Step.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Step",
+                        "printedName": "QuestCore.Step",
+                        "usr": "s:9QuestCore4StepO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9QuestCore4StepO6lockeryAcA11LockerModelCcACmF",
+            "mangledName": "$s9QuestCore4StepO6lockeryAcA11LockerModelCcACmF",
+            "moduleName": "QuestCore"
+          },
+          {
+            "kind": "Var",
+            "name": "bingo",
+            "printedName": "bingo",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(QuestCore.Step.Type) -> (QuestCore.BingoModel) -> QuestCore.Step",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(QuestCore.BingoModel) -> QuestCore.Step",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Step",
+                        "printedName": "QuestCore.Step",
+                        "usr": "s:9QuestCore4StepO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BingoModel",
+                        "printedName": "QuestCore.BingoModel",
+                        "usr": "s:9QuestCore10BingoModelV"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "QuestCore.Step.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Step",
+                        "printedName": "QuestCore.Step",
+                        "usr": "s:9QuestCore4StepO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9QuestCore4StepO5bingoyAcA10BingoModelVcACmF",
+            "mangledName": "$s9QuestCore4StepO5bingoyAcA10BingoModelVcACmF",
+            "moduleName": "QuestCore"
+          },
+          {
+            "kind": "Var",
+            "name": "viewHieratriy",
+            "printedName": "viewHieratriy",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(QuestCore.Step.Type) -> (QuestCore.ViewHierarchyModel) -> QuestCore.Step",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(QuestCore.ViewHierarchyModel) -> QuestCore.Step",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Step",
+                        "printedName": "QuestCore.Step",
+                        "usr": "s:9QuestCore4StepO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ViewHierarchyModel",
+                        "printedName": "QuestCore.ViewHierarchyModel",
+                        "usr": "s:9QuestCore18ViewHierarchyModelC"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "QuestCore.Step.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Step",
+                        "printedName": "QuestCore.Step",
+                        "usr": "s:9QuestCore4StepO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9QuestCore4StepO13viewHieratriyyAcA18ViewHierarchyModelCcACmF",
+            "mangledName": "$s9QuestCore4StepO13viewHieratriyyAcA18ViewHierarchyModelCcACmF",
+            "moduleName": "QuestCore"
+          },
+          {
+            "kind": "Var",
+            "name": "passwordLock",
+            "printedName": "passwordLock",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(QuestCore.Step.Type) -> (QuestCore.PasswordLockModel) -> QuestCore.Step",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(QuestCore.PasswordLockModel) -> QuestCore.Step",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Step",
+                        "printedName": "QuestCore.Step",
+                        "usr": "s:9QuestCore4StepO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PasswordLockModel",
+                        "printedName": "QuestCore.PasswordLockModel",
+                        "usr": "s:9QuestCore17PasswordLockModelC"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "QuestCore.Step.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Step",
+                        "printedName": "QuestCore.Step",
+                        "usr": "s:9QuestCore4StepO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9QuestCore4StepO12passwordLockyAcA08PasswordE5ModelCcACmF",
+            "mangledName": "$s9QuestCore4StepO12passwordLockyAcA08PasswordE5ModelCcACmF",
+            "moduleName": "QuestCore"
+          },
+          {
+            "kind": "Var",
+            "name": "memoryLeak",
+            "printedName": "memoryLeak",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(QuestCore.Step.Type) -> (QuestCore.MemoryLeakModel) -> QuestCore.Step",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(QuestCore.MemoryLeakModel) -> QuestCore.Step",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Step",
+                        "printedName": "QuestCore.Step",
+                        "usr": "s:9QuestCore4StepO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MemoryLeakModel",
+                        "printedName": "QuestCore.MemoryLeakModel",
+                        "usr": "s:9QuestCore15MemoryLeakModelC"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "QuestCore.Step.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Step",
+                        "printedName": "QuestCore.Step",
+                        "usr": "s:9QuestCore4StepO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9QuestCore4StepO10memoryLeakyAcA06MemoryE5ModelCcACmF",
+            "mangledName": "$s9QuestCore4StepO10memoryLeakyAcA06MemoryE5ModelCcACmF",
+            "moduleName": "QuestCore"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Step",
+                "printedName": "QuestCore.Step",
+                "usr": "s:9QuestCore4StepO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Step",
+                "printedName": "QuestCore.Step",
+                "usr": "s:9QuestCore4StepO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9QuestCore4StepO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s9QuestCore4StepO2eeoiySbAC_ACtFZ",
+            "moduleName": "QuestCore",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9QuestCore4StepO",
+        "mangledName": "$s9QuestCore4StepO",
+        "moduleName": "QuestCore",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/asikerin\/arcadia\/junk\/asikerin\/MemoryDebuggingQuest\/QuestCore\/QuestCore\/ImageManager\/ImageManager.swift",
+      "kind": "Array",
+      "offset": 214,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/asikerin\/arcadia\/junk\/asikerin\/MemoryDebuggingQuest\/QuestCore\/QuestCore\/QuestContoller.swift",
+      "kind": "StringLiteral",
+      "offset": 370,
+      "length": 39,
+      "value": "\"Please, don't try to broke the system\""
+    },
+    {
+      "filePath": "\/Users\/asikerin\/arcadia\/junk\/asikerin\/MemoryDebuggingQuest\/QuestCore\/QuestCore\/CoreLogging.swift",
+      "kind": "StringLiteral",
+      "offset": 121,
+      "length": 11,
+      "value": "\"QuestCore\""
+    },
+    {
+      "filePath": "\/Users\/asikerin\/arcadia\/junk\/asikerin\/MemoryDebuggingQuest\/QuestCore\/QuestCore\/CoreLogging.swift",
+      "kind": "StringLiteral",
+      "offset": 144,
+      "length": 7,
+      "value": "\"flags\""
+    },
+    {
+      "filePath": "\/Users\/asikerin\/arcadia\/junk\/asikerin\/MemoryDebuggingQuest\/QuestCore\/QuestCore\/LockerModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 466,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asikerin\/arcadia\/junk\/asikerin\/MemoryDebuggingQuest\/QuestCore\/QuestCore\/PasswordLockModel.swift",
+      "kind": "StringLiteral",
+      "offset": 404,
+      "length": 11,
+      "value": "\"SHMR_2025\""
+    },
+    {
+      "filePath": "\/Users\/asikerin\/arcadia\/junk\/asikerin\/MemoryDebuggingQuest\/QuestCore\/QuestCore\/ViewHierarchyModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 341,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asikerin\/arcadia\/junk\/asikerin\/MemoryDebuggingQuest\/QuestCore\/QuestCore\/ViewHierarchyModel.swift",
+      "kind": "StringLiteral",
+      "offset": 596,
+      "length": 6,
+      "value": "\"Next\""
+    },
+    {
+      "filePath": "\/Users\/asikerin\/arcadia\/junk\/asikerin\/MemoryDebuggingQuest\/QuestCore\/QuestCore\/ViewHierarchyModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 672,
+      "length": 2,
+      "value": "18"
+    },
+    {
+      "filePath": "\/Users\/asikerin\/arcadia\/junk\/asikerin\/MemoryDebuggingQuest\/QuestCore\/QuestCore\/ViewHierarchyModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 771,
+      "length": 2,
+      "value": "25"
+    },
+    {
+      "filePath": "\/Users\/asikerin\/arcadia\/junk\/asikerin\/MemoryDebuggingQuest\/QuestCore\/QuestCore\/ViewHierarchyModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 849,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asikerin\/arcadia\/junk\/asikerin\/MemoryDebuggingQuest\/QuestCore\/QuestCore\/ViewHierarchyModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1031,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}

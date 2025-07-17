@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/asikerin/Library/Developer/Xcode/DerivedData/Build/Products/Release-iphonesimulator/QuestCore.framework/QuestCore'
+relocations:     []
+...

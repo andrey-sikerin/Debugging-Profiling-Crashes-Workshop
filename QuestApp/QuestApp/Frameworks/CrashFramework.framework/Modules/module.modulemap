@@ -1,0 +1,6 @@
+framework module CrashFramework {
+  umbrella header "CrashFramework.h"
+  export *
+
+  module * { export * }
+}

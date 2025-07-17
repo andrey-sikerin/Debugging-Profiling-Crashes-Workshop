@@ -1,0 +1,126 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target x86_64-apple-ios18.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name QuestCore
+// swift-module-flags-ignorable:  -interface-compiler-version 6.1.2
+import CrashFramework
+import Foundation
+import OSLog
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+final public class MemoryLeakModel : Swift.Equatable {
+  final public var goToNext: ((QuestCore.Step) -> Swift.Void)!
+  public static func == (lhs: QuestCore.MemoryLeakModel, rhs: QuestCore.MemoryLeakModel) -> Swift.Bool
+  public init(nextStep: QuestCore.Step)
+  final public func goToNextStep()
+  @objc deinit
+}
+final public class ImageManager {
+  public init()
+  final public func loadImage(from url: Foundation.URL, completion: @escaping (Swift.Result<UIKit.UIImage, QuestCore.ImageManagerError>) -> Swift.Void) -> QuestCore.Disposable
+  final public func hasTasks() -> Swift.Bool
+  @objc deinit
+}
+public let startStep: QuestCore.Step
+public struct CrashSomeWhereModel {
+  public var title: Swift.String
+  public var condition: [Swift.String??]?
+  public func checkAnswer(_ answer: Swift.String) -> Swift.Result<QuestCore.Step, any Swift.Error>
+}
+extension QuestCore.CrashSomeWhereModel : Swift.Equatable {
+  public static func == (lhs: QuestCore.CrashSomeWhereModel, rhs: QuestCore.CrashSomeWhereModel) -> Swift.Bool
+}
+public struct FindSomeModel {
+  public var title: Swift.String
+  public var condition: [Swift.String??]?
+  public func checkAnswer(_ answer: Swift.String) -> Swift.Result<QuestCore.Step, any Swift.Error>
+}
+extension QuestCore.FindSomeModel : Swift.Equatable {
+  public static func == (lhs: QuestCore.FindSomeModel, rhs: QuestCore.FindSomeModel) -> Swift.Bool
+}
+@_hasMissingDesignatedInitializers final public class LockerModel {
+  public protocol LockerModelDelegate : AnyObject {
+    func lockerModelDidLock(_ model: QuestCore.LockerModel)
+    func lockerModelDidUnlock(_ model: QuestCore.LockerModel)
+  }
+  weak final public var delegate: (any QuestCore.LockerModel.LockerModelDelegate)?
+  final public func lockModel()
+  final public func unlock()
+  final public func getNextStepOnce() -> Swift.Result<QuestCore.Step, any Swift.Error>
+  @objc deinit
+}
+extension QuestCore.LockerModel : Swift.Equatable {
+  public static func == (lhs: QuestCore.LockerModel, rhs: QuestCore.LockerModel) -> Swift.Bool
+}
+public protocol PasswordLockUI : AnyObject {
+  func updatePassword(_ password: Swift.String)
+  func updateGeneratedPassword(_ password: Swift.String)
+}
+final public class PasswordLockModel : Swift.Equatable {
+  public static func == (lhs: QuestCore.PasswordLockModel, rhs: QuestCore.PasswordLockModel) -> Swift.Bool
+  final public var goToNext: ((QuestCore.Step) -> Swift.Void)!
+  weak final public var passwordLockUI: (any QuestCore.PasswordLockUI)? {
+    get
+    set
+  }
+  public init(nextStep: QuestCore.Step)
+  final public func generatePassword()
+  final public func checkPassword()
+  @objc deinit
+}
+final public class ViewHierarchyModel : Swift.Equatable {
+  public static func == (lhs: QuestCore.ViewHierarchyModel, rhs: QuestCore.ViewHierarchyModel) -> Swift.Bool
+  final public var goToNext: ((QuestCore.Step) -> Swift.Void)!
+  public init(nextStep: QuestCore.Step)
+  final public var view: UIKit.UIView {
+    get
+    set
+  }
+  final public var button: UIKit.UIButton {
+    get
+    set
+  }
+  @objc deinit
+}
+public enum ImageManagerError : Swift.Error {
+  case noData
+  case badData
+  case network((any Swift.Error)?)
+  case unknown((any Swift.Error)?)
+}
+extension QuestCore.ImageManagerError : Swift.Equatable {
+  public static func == (lhs: QuestCore.ImageManagerError, rhs: QuestCore.ImageManagerError) -> Swift.Bool
+}
+public struct BingoModel {
+  public func getBingoCode(compeltion: (Swift.String) -> Swift.Void)
+}
+extension QuestCore.BingoModel : Swift.Equatable {
+  public static func == (lhs: QuestCore.BingoModel, rhs: QuestCore.BingoModel) -> Swift.Bool
+}
+public struct GreetingModel {
+  public var id: Swift.UInt
+  public var nextStep: () -> QuestCore.Step
+}
+extension QuestCore.GreetingModel : Swift.Equatable {
+  public static func == (lhs: QuestCore.GreetingModel, rhs: QuestCore.GreetingModel) -> Swift.Bool
+}
+final public class Disposable {
+  public init(_ dispose: (() -> Swift.Void)? = nil)
+  final public func dispose()
+  @objc deinit
+  public static var empty: QuestCore.Disposable {
+    get
+  }
+}
+public enum Step : Swift.Equatable {
+  case greeting(QuestCore.GreetingModel)
+  case crashSomeWhere(QuestCore.CrashSomeWhereModel)
+  case locker(QuestCore.LockerModel)
+  case bingo(QuestCore.BingoModel)
+  case viewHieratriy(QuestCore.ViewHierarchyModel)
+  case passwordLock(QuestCore.PasswordLockModel)
+  case memoryLeak(QuestCore.MemoryLeakModel)
+  public static func == (a: QuestCore.Step, b: QuestCore.Step) -> Swift.Bool
+}

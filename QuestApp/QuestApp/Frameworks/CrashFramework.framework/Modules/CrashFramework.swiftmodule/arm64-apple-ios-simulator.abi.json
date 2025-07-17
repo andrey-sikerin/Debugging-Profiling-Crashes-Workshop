@@ -1,0 +1,90 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "CrashFramework",
+    "printedName": "CrashFramework",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CrashFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Crasher",
+        "printedName": "Crasher",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "touch",
+            "printedName": "touch()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14CrashFramework7CrasherC5touchyyF",
+            "mangledName": "$s14CrashFramework7CrasherC5touchyyF",
+            "moduleName": "CrashFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Crasher",
+                "printedName": "CrashFramework.Crasher",
+                "usr": "s:14CrashFramework7CrasherC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14CrashFramework7CrasherCACycfc",
+            "mangledName": "$s14CrashFramework7CrasherCACycfc",
+            "moduleName": "CrashFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14CrashFramework7CrasherC",
+        "mangledName": "$s14CrashFramework7CrasherC",
+        "moduleName": "CrashFramework",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
